@@ -29,7 +29,8 @@ public class GT4500Test {
   @Test
   public void fireTorpedo_All_Success(){
     // Arrange
-    int i = 0;
+    int i = 20;
+
     // Act
     boolean result = ship.fireTorpedo(FiringMode.ALL);
 
